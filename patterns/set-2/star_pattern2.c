@@ -1,4 +1,42 @@
 /*
+output:
+Enter number of rows:5
+            * 
+          * * 
+        * * * 
+      * * * * 
+    * * * * * 
+
+
+*/
+
+
+#include <stdio.h>
+int main()
+{
+int rows,i,j,space;
+printf("Enter number of rows:");
+scanf("%d",&rows);
+for(i=0;i<rows;i++)
+{
+	for(space=0;space<=rows-i;space++)
+        {
+        	printf("  ");
+       	}
+       	for(j=0;j<=i;j++)
+	{
+		printf("* ");
+	}
+	printf("\n");
+}
+return 0;
+}
+
+
+
+
+
+/*
 2.
 output:
 Enter number of rows:5
@@ -10,6 +48,7 @@ Enter number of rows:5
 
 */
 
+/*
 #include <stdio.h>
 int main()
 {
@@ -31,3 +70,4 @@ for(i=0;i<rows;i++)
 return 0;
 }
 
+*/
