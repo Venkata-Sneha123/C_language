@@ -10,5 +10,21 @@ char **ptr1=(char*)&ptr;
 
 printf("17th element = %d\n",*(*ptr1+16));
 
+//ptr=ptr+4;
+printf("17th element = %d\n",(char)*(ptr+4));
+
+
+char *ptr2=arr;
+
+printf("17th element = %d\n",*(ptr2+16));
+
 return 0;
 }
+
+
+/*
+output:
+17th element = 17
+17th element = 17
+17th element = 17
+*/
