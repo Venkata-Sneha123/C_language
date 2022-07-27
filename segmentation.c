@@ -1,3 +1,19 @@
+/*
+A segmentation fault occurs when your program attempts 
+to access an area of memory that it is not allowed to access. 
+In other words, when your program tries to access memory 
+that is beyond the limits that the operating system allocated for your program.
+
+Seg faults are mostly caused by pointers that are −
+
+Used to being properly initialized.
+Used after the memory they point to has been reallocated or freed.
+Used in an indexed array where the index is outside of the array bounds.
+
+*/
+
+
+
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
